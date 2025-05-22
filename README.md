@@ -11,44 +11,44 @@ Use segmentation techniques to uncover dominant and emerging vehicle types.
 Provide strategic recommendations for manufacturers entering the Indian vehicle or EV market.
 
 # 📊 Datasets Used
-1. india_vehicle_sales_yearly.xlsx
-State: Indian state where the data was recorded.
+## 1. india_vehicle_sales_yearly.xlsx
+**State:** Indian state where the data was recorded.
 
-Year: Sales year (2010–2025).
+**Year:** Sales year (2010–2025).
 
-Two Wheelers: Total two-wheeler units sold.
+**Two Wheelers:** Total two-wheeler units sold.
 
-Three Wheelers: Total three-wheeler units sold.
+**Three Wheelers:** Total three-wheeler units sold.
 
-Cars: Total passenger cars sold.
+**Cars:** Total passenger cars sold.
 
-Buses: Number of buses sold.
+**Buses:** Number of buses sold.
 
-Trucks: Number of trucks sold.
+**Trucks:** Number of trucks sold.
 
-2. EV_Dataset.csv
-Year: Year of EV registration.
+## 2. EV_Dataset.csv
+**Year:** Year of EV registration.
 
-Month Name: Month of registration.
+**Month Name:** Month of registration.
 
-Date: Exact registration date.
+**Date:** Exact registration date.
 
-State: Indian state of registration.
+**State:** Indian state of registration.
 
-Vehicle Class/Category/Type: Classification and type of the EV.
+**Vehicle Class/Category/Type:** Classification and type of the EV.
 
-EV Sales Quantity: Count of EVs registered.
+**EV Sales Quantity:** Count of EVs registered.
 
-⚙️ Methods & Techniques Used
-Exploratory Data Analysis (EDA): Identified growth trends, demand patterns, and outliers.
+# ⚙️ Methods & Techniques Used
+**Exploratory Data Analysis (EDA):** Identified growth trends, demand patterns, and outliers.
 
-Time Series Forecasting: Used ARIMA to model sales trends and forecast demand.
+**Time Series Forecasting:** Used ARIMA to model sales trends and forecast demand.
 
-Clustering: Grouped vehicle sales patterns using KMeans for segment profiling.
+**Clustering:** Grouped vehicle sales patterns using KMeans for segment profiling.
 
-Growth Metrics: Calculated Year-over-Year growth and indexed growth (base year: 2010).
+**Growth Metrics:** Calculated Year-over-Year growth and indexed growth (base year: 2010).
 
-🧠 Tools & Libraries
+# 🧠 Tools & Libraries
 Python (Pandas, NumPy)
 
 Seaborn & Matplotlib for visualization
@@ -59,28 +59,28 @@ Statsmodels (ARIMA)
 
 Jupyter Notebook
 
-📈 Key Insights
-Two Wheelers: Dominated the market with ~159M units sold from 2010–2025; most consistent and scalable for mass manufacturing.
+# 📈 Key Insights
+**Two Wheelers:** Dominated the market with ~159M units sold from 2010–2025; most consistent and scalable for mass manufacturing.
 
-Three Wheelers: Showed steady growth; ideal for targeted manufacturing and EV transition (especially urban/shared mobility).
+**Three Wheelers:** Showed steady growth; ideal for targeted manufacturing and EV transition (especially urban/shared mobility).
 
-Cars: Volatile demand; not recommended without differentiation or innovation.
+**Cars:** Volatile demand; not recommended without differentiation or innovation.
 
-✅ Final Recommendation
-🥇 Manufacture Two Wheelers: Highest demand and market penetration.
+# ✅ Final Recommendation
+**🥇 Manufacture Two Wheelers:** Highest demand and market penetration.
 
-🥈 Consider Three Wheelers: Steady growth and future-fit for EV transformation.
+**🥈 Consider Three Wheelers:** Steady growth and future-fit for EV transformation.
 
-❌ Buses & Trucks: Low or unstable volumes; not ideal for new manufacturing investment.
+**❌ Buses & Trucks:** Low or unstable volumes; not ideal for new manufacturing investment.
 
-📁 Files Included
-Logu Prasanth - EV Market Segment Analysis.ipynb – Analysis & visualizations
+# 📁 Files Included
+**Logu Prasanth - EV Market Segment Analysis.ipynb** – Analysis & visualizations
 
-india_vehicle_sales_yearly.xlsx – Traditional vehicle sales dataset
+**india_vehicle_sales_yearly.xlsx** – Traditional vehicle sales dataset
 
-EV_Dataset.csv – Electric vehicle registration dataset
+**EV_Dataset.csv** – Electric vehicle registration dataset
 
-🚀 How to Run
+# 🚀 How to Run
 Clone this repository to your system.
 
 Open the .ipynb file in Jupyter Notebook or VSCode.
@@ -89,5 +89,5 @@ Run all cells to explore data analysis and insights.
 
 Review recommendations at the end of the notebook.
 
-📌 Author
+# 📌 Author
 This project was completed individually as part of a market analysis task under internship guidelines.
