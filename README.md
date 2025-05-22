@@ -1,7 +1,7 @@
-🚗 EV & Vehicle Sales Segmentation Project
+# 🚗 EV & Vehicle Sales Segmentation Project
 This project focuses on analyzing India's vehicle registration trends and electric vehicle (EV) adoption patterns to recommend the most viable vehicle type for manufacturing. It combines traditional vehicle sales data with electric vehicle registration insights to support data-driven manufacturing strategy decisions.
 
-🎯 Project Goals
+# 🎯 Project Goals
 Identify which vehicle type (e.g., Two Wheelers, Three Wheelers) is ideal for long-term manufacturing based on sales trends and EV readiness.
 
 Analyze sales patterns across Indian states from 2010 to 2025.
@@ -10,7 +10,7 @@ Use segmentation techniques to uncover dominant and emerging vehicle types.
 
 Provide strategic recommendations for manufacturers entering the Indian vehicle or EV market.
 
-📊 Datasets Used
+# 📊 Datasets Used
 1. india_vehicle_sales_yearly.xlsx
 State: Indian state where the data was recorded.
 
